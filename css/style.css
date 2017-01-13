@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box
+}
+
+#app-container{
+  width: 1000px;
+}
+
+body{
+  font-family: "Libre Franklin", "Helvetica", "sans-serif";
+}
+
+.roommates{
+  background-image: url(https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/assignments/basic-layout-and-positioning-stride/images/hero-splash-roommates-fun.jpg);
+  background-size: cover;
+  background-position: left;
+  padding-top: 500px;
+  position: relative;
+}
+
+.roommates-text{
+  background: rgba(51, 51, 51, 0.6);
+  width: 1000px;
+  color: #FFFFFF;
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  padding-bottom: 24px;
+}
+
+.roommates-text h1{
+  font-weight: 300;
+  font-size: 30px;
+  margin-bottom: 3px;
+}
+
+.roommates-text h2{
+  font-weight: 100;
+  font-size: 12px;
+}
+
+.roommates-text input{
+  border-top: 16px #FFFFFF solid;
+  border-bottom: 16px #FFFFFF solid;
+  border-left: 70px #FFFFFF solid;
+  border-right: 70px #FFFFFF solid;
+  margin-top: 24px;
+}
+
+.roommates-text button{
+  color: #FFFFFF;
+  font-family: "Libre Franklin", "Helvetica", "sans-serif";
+  background-color: #29BBAF;
+  font-size: 16px;
+  font-weight: 100;
+  border-top: 11px #29BBAF solid;
+  border-bottom: 12px #29BBAF solid;
+  border-left: 12px #29BBAF solid;
+  border-right: 12px #29BBAF solid;
+}
+
+.locations img{
+  width: 100%;
+}
+
+.locations{
+  font-size: 0;
+}
+
+.cities{
+  display: inline-block;
+  vertical-align: top;
+  width: 200px;
+  font-size: 16px;
+  background-color: #333;
+  color: #FFF;
+  margin: 16px 24px;
+}
+
+.cities p{
+  margin-top: 5px;
+  margin-bottom: 3px;
+}
