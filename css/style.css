@@ -29,13 +29,13 @@ body{
 }
 
 .roommates-text h1{
-  font-weight: 300;
+  font-weight: 400;
   font-size: 30px;
   margin-bottom: 3px;
 }
 
 .roommates-text h2{
-  font-weight: 100;
+  font-weight: 200;
   font-size: 12px;
 }
 
@@ -65,6 +65,7 @@ body{
 
 .locations{
   font-size: 0;
+  text-align: center;
 }
 
 .cities{
@@ -72,12 +73,43 @@ body{
   vertical-align: top;
   width: 200px;
   font-size: 16px;
+  font-weight: 200;
   background-color: #333;
   color: #FFF;
   margin: 16px 24px;
 }
 
 .cities p{
-  margin-top: 5px;
-  margin-bottom: 3px;
+  padding-left: 4px;
+  margin: auto;
+  padding-bottom: 4px;
+  text-align: left;
+}
+
+.locations button{
+  color: #F55E05;
+  font-family: "Libre Franklin", "Helvetica", "sans-serif";
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #FFF;
+  border: 2px #F55E05 solid;
+  padding: 16px 12px;
+}
+
+.listings-container{
+  font-size: 0;
+  background-color: #DDD;
+  padding-top: 32px;
+
+}
+
+.listings{
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+  width: 300px;
+}
+
+.listings-container img{
+  width: 300px;
 }
