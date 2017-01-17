@@ -10,6 +10,30 @@ body{
   font-family: "Libre Franklin", "Helvetica", "sans-serif";
 }
 
+.navbar{
+  background-color: #F55E05;
+  color: #FFF;
+  height: 50px;
+  font-size: 12px;
+}
+
+.navbar img{
+  height: 80%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 70%;
+  padding-left: 6px;
+  padding-top: 6px;
+}
+
+.navbar button{
+  background-color: #F55E05;
+  color: #B0E6E2;
+  border: 1px #B0E6E2 solid;
+  margin-right: 16px;
+  margin-bottom: 12px;
+}
+
 .roommates{
   background-image: url(https://raw.githubusercontent.com/TIY-Charleston-Front-End-Engineering/Course-Guide/master/assignments/basic-layout-and-positioning-stride/images/hero-splash-roommates-fun.jpg);
   background-size: cover;
@@ -94,22 +118,150 @@ body{
   background-color: #FFF;
   border: 2px #F55E05 solid;
   padding: 16px 12px;
+  margin-bottom: 16px;
 }
 
 .listings-container{
   font-size: 0;
   background-color: #DDD;
   padding-top: 32px;
+  padding-bottom: 32px;
+}
 
+.listings-container p{
+  margin-bottom: 1px;
+  margin-top: 1px;
+}
+
+.listings-container img{
+  width: 100%;
 }
 
 .listings{
   display: inline-block;
   vertical-align: top;
-  font-size: 16px;
-  width: 300px;
+  font-size: medium;
+  width: 50%;
 }
 
-.listings-container img{
+.listings p{
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.picture-container{
+  background-color: #FFF;
+  border: 1px #000 solid;
   width: 300px;
+  margin-left: 150px;
+}
+
+.picture-container p{
+  font-size: 14px;
+  padding-left: 12px;
+  margin-top: 4px;
+}
+
+.picture-container h4{
+  font-size: 16px;
+  margin-top: 12px;
+  padding-left: 12px;
+  margin-bottom: 6px;
+}
+
+.verified{
+  margin-left: 100px;
+}
+
+.verified h1{
+  font-weight: 400;
+}
+
+.verified span{
+  font-size: 36px;
+  margin-bottom: 1px;
+  margin-top: 1px;
+}
+
+.verified p{
+  margin-bottom: 1px;
+  margin-top: 1px;
+}
+
+.footer{
+  font-size: 0;
+  background-color: #333;
+}
+
+.footer p{
+  margin-bottom: 12px;
+  margin-top: 2px;
+  font-size: 12px;
+  color: #9B9A98;
+  margin-left: 12px;
+}
+
+.footer h3{
+  margin-left: 12px;
+}
+
+.footer hr{
+  margin-top: 24px;
+  margin-left: 6px;
+  margin-right: 6px;
+  font-weight: 100;
+}
+
+.information{
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+  color: #FFF;
+  width: 33%;
+}
+
+.socialimages img{
+  width: 65px;
+  padding-top: 16px;
+  padding-bottom: 12px;
+  padding-right: 12px;
+}
+
+.socialimages{
+  text-align: right;
+}
+
+.fixed-questions{
+  position: fixed;
+  bottom: 1px;
+  left: 8px;
+  width: 225px;
+  border: 3px #29BBAF solid;
+}
+
+.fixed-questions h5{
+  background-color: #B0E6E2;
+  margin: 0px;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 6px;
+}
+
+.fixed-questions p{
+  background-color: #FFF;
+  margin: 0px;
+  font-size: 12px;
+}
+
+.fixed-questions span{
+  color: #F55E05;
+}
+
+.fixed-questions img{
+  width: 48px;
+  height: 48px;
+  border: 1px #000 solid;
+  border-radius: 50px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
